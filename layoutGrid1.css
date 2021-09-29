@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-rows: 20% 60% 20%;
+}
+
+header{
+    background-color: tomato;
+}
+
+main{
+    background-color: palegreen;
+}
+
+footer{
+    background-color: rebeccapurple;
+}
+
+header, main, footer{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+}

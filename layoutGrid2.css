@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+items:nth-child(1){
+    grid-area: header;
+}
+
+items:nth-child(2){
+    grid-area: nav;
+}
+
+
+header, main, footer{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+}

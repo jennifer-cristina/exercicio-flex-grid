@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 150px;
+    display: flex;
+    background-color: tomato;
+}
+.container-items{
+    height: 100%;
+    display: flex;
+}
+
+nav{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    background-color: thistle;
+}
+
+article{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    background-color: palegreen;
+}
+
+aside{
+    width: 450px;
+    height: 100%;
+    display: flex;
+    background-color: pink;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    background-color: rebeccapurple;
+}
+
+header, nav, article, aside, footer{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}

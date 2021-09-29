@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    flex-grow: 1;
+    display: flex;
+    background-color: tomato;
+}
+
+main{
+    flex-grow: 6;
+    background-color: palegreen;
+    display: flex;
+}
+
+footer{
+    flex-grow: 1;
+    background-color: rebeccapurple;
+    display: flex;
+}
+
+.formatacao{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
